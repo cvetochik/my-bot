@@ -28,7 +28,7 @@ http.createServer(function(req, res) {
                   "dir":directions[random_dir]
                 }
             }
-            console.log("Orders:",response)
+            cons
             res.end(JSON.stringify(response));
 
             // json format sample:
